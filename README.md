@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 VeriSpatial Blog
 Date: 
 What was happening: Company introduction
@@ -9,3 +10,6 @@ The services we provide include:
 3.	Spatial Planning
 4.	GIS consulting
 The VeriSpatial Logo Explained:
+=======
+tester
+>>>>>>> Nicolene
