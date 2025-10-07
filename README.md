@@ -13,5 +13,4 @@ The VeriSpatial Logo Explained:
 =======
 tester
 >>>>>>> Nicolene
-
-Verispatial is a GIS consulting company
+VeriSpatial is a GIS consulting company.
