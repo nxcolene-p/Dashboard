@@ -16,13 +16,16 @@ const ambient = new THREE.AmbientLight(0xffffff, 0.6);
 const sun = new THREE.DirectionalLight(0xffffff, 1);
 sun.position.set(10, 15, 10);
 scene.add(ambient, sun);
+sun.castShadow = true;
+scene.add(sun);
+
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
 // Load model
 const loader = new GLTFLoader();
 let model;
-loader.load('Model/Model 2.gltf', (gltf) => {
+loader.load('Model/Model2.gltf', (gltf) => {
   model = gltf.scene;
   scene.add(model);
 }, undefined, (error) => console.error(error));
