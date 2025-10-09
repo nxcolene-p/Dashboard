@@ -22,7 +22,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 // Load model
 const loader = new GLTFLoader();
 let model;
-loader.load('models/campus.glb', (gltf) => {
+loader.load('Model/Model 2.gltf', (gltf) => {
   model = gltf.scene;
   scene.add(model);
 }, undefined, (error) => console.error(error));
