@@ -1,24 +1,9 @@
-body { margin: 0; overflow: hidden; background-color: #ffffff; }
-
-#ui {
-  position: absolute; top: 20px; left: 20px;
-  display: flex; gap: 10px;
-  z-index: 10;
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #958e8e;
 }
 
-button {
-  padding: 8px 12px;
-  border: none;
-  border-radius: 6px;
-  background: #487651;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover { background: #5ea46b; }
-
-canvas#threeCanvas {
+canvas {
   display: block;
-  width: 100vw;
-  height: 100vh;
 }
