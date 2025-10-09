@@ -27,7 +27,7 @@ scene.add(new THREE.AmbientLight(0xffffff, 0.3));
 // ✅ Load GLTF model
 const loader = new GLTFLoader();
 loader.load(
-  './models/yourModel.glb',
+  './Model/Model2.gltf',
   (gltf) => {
     const model = gltf.scene;
     model.position.set(0, 0, 0);
