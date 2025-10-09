@@ -25,7 +25,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 // Load model
 const loader = new GLTFLoader();
 let model;
-loader.load('Model/Model2.gltf', (gltf) => {
+loader.load('./Model/Model2.gltf', (gltf) => {
   model = gltf.scene;
   scene.add(model);
 }, undefined, (error) => console.error(error));
