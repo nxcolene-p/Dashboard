@@ -8,9 +8,3 @@ button {
   background: #487651; color: white; cursor: pointer;
 }
 button:hover { background: #5ea46b; }
-
-canvas#threeCanvas {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-}
