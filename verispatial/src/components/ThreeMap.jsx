@@ -22,7 +22,7 @@ const ThreeMap = () => {
       0.1, // Near clipping plane
       10000 // Far clipping plane
     );
-    camera.position.set(0,0, 0); // Position camera above and back from origin
+    camera.position.set(0, 0, 0); // Position camera above and back from origin
     camera.lookAt(0, 0, 0); // Point camera at center
 
     // Create renderer (converts 3D scene to 2D image)
@@ -43,8 +43,7 @@ const ThreeMap = () => {
 
     // Load the 3D map using GLTFLoader
     const loader = new GLTFLoader();
-    loader.load(
-      '/Model/Model2.gltf', // Path to your qgis2threejs exported file
+    loader.load('/Model/Model2.gltf', // Path to your qgis2threejs exported file
       (gltf) => {
         // Successfully loaded the 3D map
         scene.add(gltf.scene);
@@ -69,6 +68,7 @@ const ThreeMap = () => {
         controls.target.copy(center);
         controls.update();
       },
+      
     );
 
     // Animation loop (continuously renders the scene)
@@ -98,9 +98,9 @@ const ThreeMap = () => {
     <div
       ref={mountRef}
       style={{
-        width: '100vw', // Full viewport width
-        height: '100vh', // Full viewport height
-        position: 'fixed',
+        width: '100%', // Full viewport width
+        height: '100%', // Full viewport height
+        // position: 'fixed',
         top: 0,
         left: 0,
         margin: 0,
