@@ -17,7 +17,7 @@ function App() {
   
   <Header />
       <div style={{ display: 'flex', flex: 1 }}>
-        <Sidebar setPage={setPage} />
+        
         <MainContent page={page} />
       </div>
     
