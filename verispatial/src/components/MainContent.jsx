@@ -18,13 +18,13 @@ export default function MainContent({ page }) {
       );
       break;
     
-    case '3D Model':
-      content = (
-        <div style={{ flex: 1, width: '100%', height: '100%' }}>
-          <ThreeMap /> 
-        </div>
-      );
-      break;
+    // case '3D Model':
+    //   content = (
+    //     <div style={{ flex: 1, width: '100%', height: '100%' }}>
+    //       <ThreeMap /> 
+    //     </div>
+    //   );
+    //   break;
     
   }
 
