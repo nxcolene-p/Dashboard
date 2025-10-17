@@ -1,7 +1,6 @@
-import { useState } from 'react';
+import React from 'react';
 import Header from './components/Header';
-import MainContent from './components/MainContent';
-import './App.css';
+import './index.css'; // include global + color styles
 
 function App() {
   return (
